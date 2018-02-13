@@ -414,8 +414,9 @@ module.exports = function(app, db) {
 			},
 
 			function sendResetEmailToUser(token, user, done) {
+				console.log(config.mailer);
 				if (!config.mailer.enabled) {
-					const err = "Intento de enviar el correo electrónico, sin config.mailer habilitado; correo electrónico no enviado, ¿Configure el correo?";
+					const err = "Intento de enviar el correo electrónico, config.mailer habilitado; correo electrónico no enviado, ¿Configure el correo?";
 					logger.error(err);
 					return done(err, user);
 				}

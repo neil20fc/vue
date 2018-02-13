@@ -3,7 +3,7 @@
 let mailtrap = require("../../util/mailtrap");
 let fakerator = require("fakerator")();
 
-let pauseTime = 100;
+let pauseTime = 10000;
 
 describe("Test signup page with password", () => {
 
@@ -142,7 +142,7 @@ describe.only("Test signup page with passwordless mode", () => {
 		});
 	});
 
-	it("should accept signup, if we check the passwordless mode", (browser) => {
+	it("debería aceptar el registro, si revisamos el modo sin contraseña", (browser) => {
 		signupPage.navigate()
 			.signup(user.name, user.email, user.userName, "", true)
 			.waitForElementPresent(".flash")
@@ -151,9 +151,9 @@ describe.only("Test signup page with passwordless mode", () => {
 			.api.pause(pauseTime)
 			.assert.urlEquals(loginPage.url())
 			.makeScreenshot();
-
+		console.log("RORORORO");
 		browser
-			.pause(1000) // Wait for email received
+			.pause(10000) // Wait for email received
 			.perform(function(browser, done) {
 				//console.log("Check mailbox...");
 

@@ -13,13 +13,13 @@ module.exports = {
 
 	// Application settings
 	app: {
-		//title: "VEM APP",
-		//version: "1.0.0",
+		title: "Neil APP",
+		version: "1.0.0",
 		//description: "This is my boilerplate web app",
 		//keywords: "boilerplate, starter, webapp",
 		//url: "http://localhost:3000/",
 		//googleAnalyticsID: 'UA-xxxxx-x',
-		//contactEmail: "hello@vem-app.com"
+		contactEmail: "soporte@sadham.pe"
 	},
 
 	// ip: process.env.NODE_IP || "0.0.0.0",
@@ -46,18 +46,18 @@ module.exports = {
 
 	// Mail sending settings
 	mailer: {
-		//from: "noreply@vem-app.com",
+		enabled: true,
+		from: "example_ou@outlook.com",
 
-		/*
 		transport: "smtp",
 		smtp: {
-			host: "mailtrap.io",
-			port: 2525,
+			host: "smtp-mail.outlook.com",
+			port: 587,
 			auth: {
-				user: "",
-				pass: ""
+				user: "example_ou@outlook.com",
+				pass: "SadhamNeil@"
 			}
-		}*/
+		}
 
 		/*transport: "smtp",
 		smtp: {
