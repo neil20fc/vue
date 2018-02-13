@@ -1,0 +1,97 @@
+{
+	"Home": "Inicio",
+	"Devices": "Dispositivos",
+	"Posts": "Publicaciones",
+	"Increment": "aumentar",
+	"Decrement": "Disminuir",
+	"Logout": "Salir",
+
+	"Save": "Guardar",
+	"Cancel": "Cancelar",
+	"Clone": "Clonar",
+	"Delete": "Eliminar ",
+
+	"PostTitleCannotBeEmpty": "¡El título de la publicación no puede estar en blanco!",
+	"PostContentCannotBeEmpty": "¡El contenido del mensaje no puede estar en blanco!",
+	"PostNotFound": "¡Publicación no encontrada!",
+	"InvalidPostID": "¡ID de publicación no válida!",
+
+	"YouHaveAlreadyVotedThisPost": "¡Ya votaste esta publicación!",
+	"YouHaveNotVotedThisPostYet": "¡Aún no has votado esta publicación!",
+	"OnlyAuthorEditPost": "¡Solo el autor puede editar esta publicación!",
+	"OnlyAuthorDeletePost": "¡Solo el autor puede eliminar esta publicación!",
+	"YouAreNotTheOwner": "¡No eres el propietario!",
+	
+
+	"DeviceAdded": "Dispositivo agregado",
+	"DeviceUpdated": "Dispositivo actualizado",
+	"DeviceDeleted": "Dispositivo eliminado",
+	"DeviceNotFound": "¡Dispositivo no encontrado!",
+
+	"DeviceNameAdded": "¡Dispositivo '{{data.name}}' agregado por {{user.fullName}}!",
+	"DeviceNameUpdated": "¡Dispositivo '{{data.name}}' actualizado por {{user.fullName}}!",
+	"DeviceNameDeleted": "¡Dispositivo '{{data.name}}' eliminado por {{user.fullName}}!",
+
+	"DeviceNameCannotBeBlank": "¡Dispositivo nombre no puede estar en blanco!",
+
+	"UserNotFound": "¡Usuario no encontrado!",
+
+	"ID": "ID",
+	"Type": "Type",
+	"Address": "Dirección",
+	"Name": "Nombre",
+	"Status": "Estado",
+	"LastCommunication": "Última comunicación",
+	"willBeGenerated": "<se generará>",
+	"DeviceName": "Nombre del dispositivo",
+	"Description": "Descripción",
+	"AddressOfDevice": "Dirección del dispositivo",
+	"Active": "Activo",
+	"Inactive": "Inactivo",
+	"AddNewDevice": "Agregar nuevo dispositivo",
+
+	"SelectedOfAll": "Seleccionar {{ selected }} de {{ all }}",
+	"Search3dots": "Buscar ...",
+	
+	"Hot": "Caliente ",	
+	"MostViewed": "Más visto ",	
+	"New": "Nuevo",	
+	"NewPost": "Nueva publicación",	
+	"AllPosts": "Todas las publicaciones",	
+	"MyPosts": "Mis publicaciones",	
+	"ViewsCount": " visto: {{count}}",	
+	"CreatedAgoByName": "Creado {{ago}} por {{name}}",	
+	"EditedAgo": "Editar {{ago}}",	
+	"EditPost": "Editar Publicación",	
+	"DeletePost": "Eliminar publicación",	
+	"Title": "Titulo",	
+	"TitleOfPost": "Titulo de Publicación",	
+	"Content": "Contenido",	
+	"ContentOfPost": "Contenido de la publicación",	
+    "Voters": "Votantes",
+    "LoadMore": "Cargar más ...",
+
+	"PostAdded": "Publicación agregada",
+	"PostUpdated": "Publicación actualizada",
+	"PostDeleted": "Publicación eliminada",
+
+	"PostNameAdded": "Publicación '{{data.title}}' Agregar por {{user.fullName}}!",
+	"PostNameUpdated": "Publicación '{{data.title}}' Actualizar por {{user.fullName}}!",
+	"PostNameDeleted": "Publicación '{{data.title}}' Eliminar por {{user.fullName}}!",
+	"PostNameVoted": "Publicación '{{data.title}}' votar por {{user.fullName}}!",
+	"PostNameUnvoted": "Publicación '{{data.title}}' no votar por {{user.fullName}}!",
+
+	"InvalidCode": "Invalido codigo!",
+
+	"Demo": "Demo",
+
+	"General": "General",
+	"Profile": "Perfiles",
+	"MyAccount": "Mi cuenta",
+	"Settings": "configuracion",
+	"Notifications": "Notificaciones",
+	"Messages": "Mensajes",
+	"MarkAllAsRead": "Marcar todo como leído",
+	"SeeAllNotifications": "Ver todas las notificaciones",
+	"SeeAllMessages": "Ver todos los mensajes"
+}
